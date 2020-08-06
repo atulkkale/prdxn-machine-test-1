@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LESSER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9321966ee0.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      function Display()
+      {
+        document.getElementById("menu_nav").style.display="block";
+        document.getElementById("close").style.display="block";
+      }
+
+      function Remove()
+      {
+        document.getElementById("menu_nav").style.display="none";
+        document.getElementById("close").style.display="none";
+      }
+
+      var loader;
+      function loadNow(opacity){
+        if(opacity <= 0) {
+          displayContent();
+        }
+        else{
+          loader.style.opacity = opacity;
+          window.setTimeout(function() {
+            loadNow(opacity - 0.05)
+          },100)
+        }
+      }
+
+      function displayContent(){
+        loader.style.display = 'none';
+      }
+
+      document.addEventListener("DOMContentLoaded", function() {
+        loader = document.getElementById('loader');
+        loadNow(1);
+      })
+    </script>
+  </head>
+  <body>
+    <div id="loader" class="loader"></div>
+    <header class="menu">
+      <div id="close" class="close" onclick="Remove()">X</div>
+      <div id="hamburger" class="hamburger" onclick="Display()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <nav class="menu_logo">
+        <h1><i class="fa fa-bolt" aria-hidden="true"></i> LESSER</h1>
+      </nav>
+      <nav id="menu_nav" class="menu_nav">
+        <ul class="menu_navlist">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="border"></div>
+    <div class="border_two"></div>
+
+    <section class="firstsec">
+      <div class="fisrtsec_title">
+        <h1>Lesser is a creative agency that love to<br>create functional website.</h1>
+      </div>
+      <div class="firstsec_wrapper">
+        <div class="left">
+          <h6>Work with love</h6>
+          <p>Web Design</p>
+        </div>
+        <div class="right">
+          <div class="right_top">
+            <h6>Music Lover</h6>
+            <p>Application</p>
+          </div>
+          <div class="right_bottom">
+            <div class="rb_one">
+              <h6>Travel</h6>
+              <p>Illustration</p>
+            </div>
+            <div class="rb_two">
+              <h6>Captured</h6>
+              <p>Photo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="ser_title">
+        <h1>Our Awesome Services</h1>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+      <div class="all_services">
+        <div class="first_ser">
+          <i class="fa fa-bar-chart" aria-hidden="true"></i>
+          <h2>Finance Dashboard</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at coast of the Semantics, a large language ocean.</p>
+        </div>
+        <div class="second_ser">
+          <i class="fa fa-heart-o" aria-hidden="true"></i>
+          <h2>Made with Love</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at coast of the Semantics, a large language ocean.</p>
+        </div>
+        <div class="third_ser">
+          <i class="fa fa-key" aria-hidden="true"></i>
+          <h2 class="third_ser_icon">Help <i class="fa fa-info" aria-hidden="true"></i> Support</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at coast of the Semantics, a large language ocean.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs">
+      <div class="blog_title">
+        <h1>Our Recent Blog</h1>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+      <div class="all_blogs">
+        <div class="first_blog">
+          <img src="assets/image_4.jpg" alt="">
+          <h2>New iPhone 6 Released</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at coast of the Semantics, a large language ocean.</p>
+          <button type="button" name="button"><span>Read More</span></button>
+        </div>
+        <div class="second_blog">
+          <img src="assets/image_5.jpg" alt="">
+          <h2>Start your day with beautiful appearance</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at coast of the Semantics, a large language ocean.</p>
+          <button type="button" name="button"><span>Read More</span></button>
+        </div>
+        <div class="third_blog">
+          <img src="assets/image_6.jpg" alt="">
+          <h2>Bookmarksgrove right</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at coast of the Semantics, a large language ocean.</p>
+          <button type="button" name="button"><span>Read More</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients">
+      <div class="clients_title">
+        <h1>Our Happy Clients</h1>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+      <div class="all_clients">
+        <div class="first_client">
+          <i class="fa fa-quote-right first_top_icon" aria-hidden="true"></i>
+          <h2>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at coast of the Semantics, a large language ocean.</h2>
+          <p class="first_client_icon">Athan Smith, via <i class="fa fa-twitter" aria-hidden="true"></i></p>
+        </div>
+        <div class="second_client">
+          <i class="fa fa-quote-right second_top_icon" aria-hidden="true"></i>
+          <h2>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at coast of the Semantics, a large language ocean.</h2>
+          <p class="second_client_icon">Athan Smith, via <i class="fa fa-google-plus" aria-hidden="true"></i></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="foot">
+        <div class="first_foot">
+          <h2>About Us</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+        <div class="second_foot">
+          <h2>Our Services</h2>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Branding & Identity</a></li>
+            <li><a href="#">Free HTML5</a></li>
+            <li><a href="#">HandCrafted Templates</a></li>
+          </ul>
+        </div>
+        <div class="third_foot">
+          <ul>
+            <li><a href="#">Free Bootstrap Template</a></li>
+            <li><a href="#">Free HTML5 Template</a></li>
+            <li><a href="#">Free HTML5 & CSS3 Template</a></li>
+            <li><a href="#">HandCrafted Templates</a></li>
+          </ul>
+        </div>
+        <div class="fourth_foot">
+          <h2>Follow Us</h2>
+          <ul>
+            <li><i class="fa fa-twitter" aria-hidden="true"></i> <a href="#">Twitter</a></li>
+            <li><i class="fa fa-facebook" aria-hidden="true"></i>    <a href="#">Facebook</a></li>
+            <li><i class="fa fa-google-plus" aria-hidden="true"></i> <a href="#">Google Plus</a></li>
+            <li><i class="fa fa-instagram" aria-hidden="true"></i> <a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot_theend">
+        <p class="foot_para">© 2016 Free HTML5 template. All Rights Reserved.</p>
+        <p>Designed with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#">FreeHTML5.co</a> Demo Images by <a href="#">Unsplash</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

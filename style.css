@@ -1,0 +1,684 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Navigation Bar Start Here */
+
+.loader{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	z-index: 20;
+	overflow: visible;
+	background: #fff url('assets/loader.gif') no-repeat center center;
+}
+
+.close,.hamburger{
+	display: none;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	padding: 5% 7%;
+}
+
+.menu_logo,.menu_nav{
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	flex-basis: 45%;
+}
+
+.menu_logo i{
+	color: #00b37e;
+}
+
+.menu_logo h1{
+	font-weight: 900;
+	font-size: 18pt;
+}
+
+.menu_nav{
+	font-size: 12pt;
+}
+
+.menu_nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu_nav li{
+	flex-basis: 20px;;
+}
+
+.menu_nav a{
+	text-decoration: none;
+	color: #818181;
+	font-size: 10pt;
+	padding: 10px;
+}
+
+.menu_nav a:hover{
+	color: #fff;
+	border: 0px solid #fff;
+	background-color: rgb(0, 179, 126);
+	border-radius: 100px;
+	transition-duration: 0.2s;
+}
+
+.menu_nav li:first-child a{
+	color: #fff;
+	border: 0px solid #fff;
+	background-color: rgb(0, 179, 126);
+	border-radius: 100px;
+}
+
+.border,.border_two{
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.border_two{
+	margin-top: 1px;
+}
+
+/* Navigation Bar Ends Here */
+/* second section */
+
+.fisrtsec_title h1{
+	font-size: 24pt;
+	color: rgb(79, 79, 79);
+	text-align: center;
+	line-height: 1.3em;
+	font-weight: 200;
+	padding: 5%;
+}
+
+.firstsec_wrapper{
+	display: flex;
+	justify-content: space-around;
+	padding: 5%;
+}
+
+.firstsec_wrapper h6{
+	color: #fff;
+	font-size: 20pt;
+	font-weight: 200;
+}
+
+.firstsec_wrapper p{
+	color: rgb(145,149,154);
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.right_bottom{
+	display: flex;
+	justify-content: space-between;
+}
+
+.left,.right{
+	flex-basis: 45%;
+}
+
+.left{
+	background-image: url("assets/image_6.jpg");
+	background-repeat: no-repeat;
+	border-radius: 3px;
+}
+
+.left h6{
+	margin: 76% 0 3% 5%;
+}
+
+.left p{
+	margin: 0 0 0 5%;
+}
+
+.right_top{
+	background-image: url("assets/image_2.jpg");
+	background-repeat: no-repeat;
+	border-radius: 3px;
+}
+
+.right_top h6{
+	padding: 30% 0 3% 5%;
+}
+
+.right_top p{
+	padding: 0 0 7% 5%;
+}
+
+.rb_one{
+	background-image: url("assets/image_3.jpg");
+	background-repeat: no-repeat;
+	border-radius: 3px;
+}
+
+.rb_two{
+	background-image: url("assets/image_8.jpg");
+	background-repeat: no-repeat;
+	border-radius: 3px;
+}
+
+.rb_one h6,.rb_two h6{
+	padding: 55% 0 5% 10%;
+}
+
+.rb_one p,.rb_two p{
+	padding: 0 0 14% 10%;
+}
+
+.rb_one,.rb_two{
+	flex-basis: 45%;
+}
+
+.right_bottom{
+	margin-top: 5%;
+}
+/* End First Section */
+/* start Services Section */
+.services{
+	background-image: linear-gradient(to bottom left, rgba(0, 141, 196,0.8), rgba(0,179,126,1));
+	color: #fff;
+	text-align: center;
+}
+
+.services p{
+	color: rgb(175, 223, 225);
+	font-weight: 100;
+	line-height: 1.5em;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.ser_title{
+	padding: 5% 28%;
+}
+
+.ser_title h1{
+	font-weight: 100;
+	font-size: 24pt;
+	line-height: 1.5em;
+}
+
+.all_services{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0 9% 0;
+}
+
+.all_services h2{
+	font-weight: 100;
+	font-size: 18pt;
+}
+
+.first_ser,.third_ser{
+	padding: 0 5%;
+}
+
+.first_ser p,.second_ser p,.third_ser p{
+	margin-top: 7%;
+}
+
+.first_ser i,.second_ser i,.third_ser i{
+	border: 1px solid #fff;
+	border-radius: 50px;
+	font-size: 22pt;
+	margin-bottom: 5%;
+	padding: 5%;
+}
+
+.third_ser_icon i{
+	border: none;
+	border-radius: 0;
+  font-size: 12pt;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+/* End Services Section */
+/* Start Blog Section and little-bit clients section */
+
+.blogs{
+	text-align: center;
+	background-color: rgb(242,244,245);
+}
+
+.blogs p,.clients_title p{
+	color: #8c8380;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+
+.blog_title,.clients_title{
+	padding: 7% 28%;
+}
+
+.blog_title p,.clients_title p{
+	line-height: 1.5em;
+}
+
+.blog_title h1,.clients_title h1{
+	font-size: 24pt;
+	color: rgb(75,76,76);
+	line-height: 2em;
+}
+
+.blogs h2{
+	font-size: 18pt;
+	color: rgb(55,55,55);
+	margin-top: 5%;
+	padding: 0 5%;
+}
+
+.all_blogs{
+	display: flex;
+	justify-content: space-around;
+	padding: 1% 6% 8% 6%;
+}
+
+.all_blogs p{
+	margin: 10% 5% 0 5%;
+	line-height: 1.5em;
+	font-size: 11pt;
+}
+
+.all_blogs button{
+	margin: 10% 0;
+}
+
+.all_blogs img{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.first_blog,.second_blog,.third_blog{
+	flex-basis:31%;
+	background-color: #fff;
+	box-shadow: 5px 10px 10px #e6e8e9;
+}
+
+.all_blogs button{
+	border-radius: 20px;
+	background-color: #fff;
+	border: 1px solid #5aceab;
+	padding: 3% 4%;
+	cursor: pointer;
+}
+
+.all_blogs button:hover{
+	background-color: #5aceab;
+	transition-duration: 0.2s;
+	box-shadow: 3px 1px 5px #e6e8e9;
+}
+
+.all_blogs button:hover span{
+	color: #fff;
+}
+
+.all_blogs button span{
+	color: #5aceab;
+}
+/* Blogs Section Ends */
+/* Clients Section Start */
+
+.clients{
+	text-align: center;
+}
+
+.clients_title h1{
+	color: #4f4f55;
+}
+
+.clients_title p{
+	color: #898088;
+}
+
+.all_clients{
+	display: flex;
+	justify-content: space-around;
+	padding: 0 5% 7% 5%;
+}
+
+.all_clients h2{
+	color: #aa9fa7;
+	line-height: 1.5em;
+	margin: 0 8% 5% 8%;
+}
+
+.all_clients p{
+	color: #4d4f50;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.first_client,.second_client{
+	background-color: rgb(242,244,245);
+	flex-basis: 45%;
+	padding: 4% 0;
+	position: relative;
+}
+
+.first_client_icon i{
+	color: #3eacea;
+	font-size: 8pt;
+	cursor: pointer;
+}
+
+.second_client_icon i{
+	color: #e3574f;
+	font-size: 10pt;
+	cursor: pointer;
+}
+
+.first_top_icon,.second_top_icon{
+	position: absolute;
+	top: -11%;
+	font-size: 16pt;
+	background-color: #fff;
+	padding:4%;
+	border-radius: 100px;
+	left: 45%;
+	color: #c3cad0;
+}
+/* Clients Section End */
+/* Footer Section Start */
+
+footer{
+	background-color: rgb(42,42,42);
+}
+
+.foot {
+	display: flex;
+	justify-content: space-around;
+	padding: 10% 4% 10% 10%;
+}
+
+.foot h2{
+	color: #c7c9c5;
+}
+
+.foot p,.foot ul li{
+	color: #7a7b79;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.foot ul li a{
+	text-decoration: none;
+	color: #7a7b79;
+}
+
+.foot p,.foot ul{
+	margin-top: 10%;
+	font-size: 10pt;
+}
+
+.foot p{
+	line-height: 1.5em;
+	padding-right: 5%;
+}
+
+.foot ul{
+	line-height: 2em;
+}
+
+.first_foot,.second_foot,.third_foot,.fourth_foot{
+	flex-basis:25%;
+}
+
+.fourth_foot i{
+	width: 10%;
+	cursor: pointer;
+}
+
+.foot_theend{
+	text-align: center;
+	padding: 0 10% 12% 10%;
+}
+
+.foot_theend p{
+	color: #7a7b79;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 2em;
+}
+
+.foot_theend a{
+	text-decoration: none;
+	color: #03ae73;
+}
+
+.foot_para{
+	border-top: 1px solid #343434;
+	padding-top: 3%;
+}
+/* Footer Section Ends Here */
+/* Responsive Stylesheet Start Here */
+
+@media only screen and (max-width: 768px){
+
+/* Navigation Section Start From Here */
+.close{
+	position: fixed;
+	z-index: 10;
+	border: 1px solid #818181;
+	padding: 2%;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	top: 10%;
+	right: 10%;
+	cursor: pointer;
+}
+
+.close,.menu_nav{
+	display: none;
+}
+
+.hamburger{
+	order: 2;
+	cursor: pointer;
+	display: block;
+}
+
+.line{
+	width: 30px;
+	height: 3px;
+	background-color: black;
+	margin: 5px;
+}
+
+.menu_nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #ccc;
+	width: 100%;
+	height: 100%;
+}
+
+.menu_nav ul{
+	flex-direction: column;
+	text-align: center;
+}
+
+.menu_nav ul li{
+	margin-top: 15%;
+}
+/* Navigation Section Ends Here */
+/* First Section Start Here */
+
+.firstsec_wrapper{
+	flex-direction: column;
+}
+
+.left h6{
+	margin: 40% 0 3% 5%;
+}
+
+.left p{
+	margin: 0 0 7% 5%;
+}
+
+.right{
+	margin-top: 5%;
+}
+
+/* First Section Ends Here */
+/* Second Section Start Here */
+
+.ser_title{
+	padding: 15% 5%;
+}
+
+.all_services{
+	flex-direction: column;
+}
+
+.first_ser p,.second_ser p,.third_ser p{
+	margin: 7% 0;
+}
+
+.second_ser{
+	padding: 0 5%;
+}
+
+/* Second Section Ends Here */
+/* Blog Section and little bit client section Start Here */
+
+.blog_title,.clients_title{
+	padding: 15% 5%;
+}
+
+.all_blogs{
+	flex-direction: column;
+	padding: 1% 6% 15% 6%;
+}
+
+.second_blog,.third_blog{
+	margin-top: 10%;
+}
+
+/* Blog Section Ends Here */
+/* Clients Section Start Here */
+
+.all_clients{
+	flex-direction: column;
+	padding: 0 5% 15% 5%;
+}
+
+.first_client,.second_client{
+	padding: 10% 0 4% 0;
+}
+
+.second_client{
+	margin-top: 15%;
+}
+
+/* Clients Section Ends Here */
+/* Footer Section Start Here */
+
+.foot{
+	flex-direction: column;
+}
+
+.foot p{
+	padding-right: 0;
+}
+
+.first_foot,.second_foot,.third_foot,.fourth_foot{
+	margin-top: 15%;
+}
+
+.foot_para{
+	padding: 10% 0 3% 0;
+}
+
+.foot_theend{
+	padding: 0 5% 12% 5%;
+}
+
+/* Footer Section Ends Here */
+
+}
+
+@media only screen and (max-width: 340px){
+/* First Section Start Here */
+
+.menu_logo i{
+	display: none;
+}
+
+.fisrtsec_title h1{
+	padding: 5% 2%;
+}
+
+.rb_one h6,.rb_two h6{
+	padding: 33% 0 5% 5%;
+}
+
+.rb_one p,.rb_two p{
+	padding: 0 0 7% 5%
+}
+
+.rb_two{
+	margin-top: 5%;
+}
+
+.right_bottom{
+	flex-direction: column;
+}
+
+/* First Section Ends Here */
+/* Blog Section and Clients Section Start Here */
+
+.blog_title h1,.clients_title h1{
+	line-height: 1em;
+	margin-bottom: 10%;
+}
+
+/* Blog Section Ends and Clients Section Here */
+}
