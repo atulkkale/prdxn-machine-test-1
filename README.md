@@ -17,7 +17,7 @@ To view the project, clone this repository and open `index.html` in a browser.
 
 ```bash
 git clone https://github.com/atulkkale/prdxn-machine-test-1.git
-cd /prdxn-machine-test-1
+cd prdxn-machine-test-1
 open index.html
 ```
 ## Project Link
