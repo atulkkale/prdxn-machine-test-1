@@ -10,6 +10,7 @@ The goal of this project was to develop a responsive layout using only HTML and 
 
 - **HTML5**
 - **CSS3**
+- **JavaScript**
 
 ## Getting Started
 
