@@ -28,3 +28,8 @@ You can view the live version of the project [here](https://atulkkale.github.io/
 ## Screenshots
 
 <img width="1680" alt="Screenshot 2024-11-07 at 9 39 32 PM" src="https://github.com/user-attachments/assets/fac10504-ba47-499d-9c99-f257bbdf204f">
+
+<img width="417" alt="Screenshot 2024-11-07 at 10 24 22 PM" src="https://github.com/user-attachments/assets/8afab3d8-aba6-4825-83dd-890983804877">
+
+<img width="417" alt="Screenshot 2024-11-07 at 10 24 33 PM" src="https://github.com/user-attachments/assets/a780b621-7c25-47f9-84bf-803ecf19ce6b">
+
