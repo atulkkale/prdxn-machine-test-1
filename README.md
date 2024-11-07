@@ -1,10 +1,10 @@
 # Responsive Web Project
 
-This repository contains the HTML and CSS responsive project I created as part of a machine test for my first company application. The project showcases a responsive web page designed to adapt to various screen sizes, ensuring an optimal user experience on both desktop and mobile devices.
+This repository contains the HTML, CSS, and JavaScript responsive project I created as part of a machine test for my first company application. The project showcases a responsive web page designed to adapt to various screen sizes, ensuring an optimal user experience on both desktop and mobile devices.
 
 ## Project Overview
 
-The goal of this project was to develop a responsive layout using only HTML and CSS, adhering to best practices in web design and achieving cross-device compatibility. This project focuses on core layout techniques, including flexible grid systems and media queries, to provide a consistent and user-friendly experience across different devices.
+The goal of this project was to develop a responsive layout using HTML, CSS, and JavaScript, adhering to best practices in web design and achieving cross-device compatibility. This project focuses on core layout techniques, including flexible grid systems and media queries, as well as basic interactivity using JavaScript for the hamburger menu icon to enhance user experience on mobile devices.
 
 ## Technologies Used
 
