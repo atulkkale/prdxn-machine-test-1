@@ -22,7 +22,7 @@ open index.html
 ```
 ## Project Link
 
-You can view the live version of the project [here](https://atulkkale.github.io/prdxn-machine-test-1/){:target="_blank"}.
+You can view the live version of the project [here](https://atulkkale.github.io/prdxn-machine-test-1/).
 
 ## Screenshots
 
