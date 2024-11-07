@@ -17,12 +17,12 @@ To view the project, clone this repository and open `index.html` in a browser.
 
 ```bash
 git clone https://github.com/atulkkale/prdxn-machine-test-1.git
-cd cd /prdxn-machine-test-1.git
+cd /prdxn-machine-test-1.git
 open index.html
 ```
 ## Project Link
 
-You can view the live version of the project [here](https://atulkkale.github.io/prdxn-machine-test-1/).
+You can view the live version of the project <a href="https://atulkkale.github.io/prdxn-machine-test-1/" target="_blank">here</a>.
 
 ## Screenshots
 
